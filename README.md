@@ -224,5 +224,9 @@
           validation_data=batch_generator(X_test, Y_test), 
           validation_steps=len(X_test) // batch_size, 
           callbacks=[checkpointer, lr_decay])
- ### 訓練結果
-  
+### 訓練結果
+![image](https://github.com/t109318170KevinSu/Automatic-Speech-Recognition/blob/main/HISTORY.png)  
+
+
+### 心得
+這次的作業我覺得難度相當高，首先要先了解時麼是音訊資料，才能執行特徵處理，本次的作業透過網路上的範例教學，才慢慢了解到整個流程，裏頭有許多程式寫法蠻複雜的，需要花點時間了解。 
